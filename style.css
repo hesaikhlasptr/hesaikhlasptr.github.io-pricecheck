@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #faf9f8;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.form-control::placeholder {
+  color: white;
+  opacity: 1; /* Untuk memastikan warna placeholder tidak transparan */
+}
+.form-control {
+  background-color: #33435c;
+  border: none;
+  color: white; /* Warna teks untuk input */
+}
+
+.container-fluid {
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-control[readonly] {
+  background-color: #e9ecef;
+  color: black;
+  font-size: 25px;
+  opacity: 1;
+}
+
+.dimmed-text {
+  text-decoration: line-through; /* Optional: adds a strike-through effect */
+}
+
+.discount-box {
+  background-color: pink; /* Warna latar belakang kotak diskon */
+  color: red; /* Warna teks */
+  padding: 5px; /* Padding di dalam kotak */
+  border-radius: 5px; /* Radius border untuk membuat sudutnya bulat */
+  margin-left: 10px; /* Jarak dari elemen sebelumnya */
+}
+
+
